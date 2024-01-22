@@ -232,7 +232,6 @@ public class StringArrayListTest {
         for (int i = 0; i < Constants.arrayStrings.length; i++) {
             stringArrayList.add(Constants.arrayStrings[i]);
         }
-
         Assertions.assertEquals(11, stringArrayList.size());
         stringArrayList.remove(0);
         Assertions.assertEquals(10, stringArrayList.size());
